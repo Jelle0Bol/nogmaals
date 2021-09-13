@@ -1,5 +1,5 @@
 answer = input("Welke dag van de week kiest u? ")
-if answer.lower() == ("Maandag"):
+if answer == ("Maandag"):
     print ("Dinsdag")
     print ("Woensdag")
     print ("Donderdag")
@@ -7,7 +7,7 @@ if answer.lower() == ("Maandag"):
     print ("Zaterdag")
     print ("Zondag")
     print ("Maandag")
-elif answer.lower() == ("Dinsdag"):
+elif answer == ("Dinsdag"):
     print ("Woensdag")
     print ("Donderdag")
     print ("Vrijdag")
@@ -15,7 +15,7 @@ elif answer.lower() == ("Dinsdag"):
     print ("Zondag")
     print ("Maandag")
     print ("Dinsdag")
-elif answer.lower() == ("Woensdag"):
+elif answer == ("Woensdag"):
     print ("Donderdag")
     print ("Vrijdag")
     print ("Zaterdag")
@@ -23,7 +23,7 @@ elif answer.lower() == ("Woensdag"):
     print ("Maandag")
     print ("Dinsdag")
     print ("Woensdag")
-elif answer.lower() == ("Donderdag"):
+elif answer == ("Donderdag"):
     print ("Vrijdag")
     print ("Zaterdag")
     print ("Zondag")
@@ -31,7 +31,7 @@ elif answer.lower() == ("Donderdag"):
     print ("Dinsdag")
     print ("Woensdag")
     print ("Donderdag")
-elif answer.lower() == ("Vrijdag"):
+elif answer == ("Vrijdag"):
     print ("Zaterdag")
     print ("Zondag")
     print ("Maandag")
@@ -39,7 +39,7 @@ elif answer.lower() == ("Vrijdag"):
     print ("Woensdag")
     print ("Donderdag")
     print ("Vrijdag")
-elif answer.lower() == ("Zaterdag"):
+elif answer == ("Zaterdag"):
     print ("Zondag")
     print ("Maandag")
     print ("Dinsdag")
@@ -47,7 +47,7 @@ elif answer.lower() == ("Zaterdag"):
     print ("Donderdag")
     print ("Vrijdag")
     print ("Zaterdag")
-elif answer.lower() == ("Zondag"):
+elif answer == ("Zondag"):
     print ("Maandag")
     print ("Dinsdag")
     print ("Woensdag")
@@ -55,3 +55,5 @@ elif answer.lower() == ("Zondag"):
     print ("Vrijdag")
     print ("Zaterdag")
     print ("Zondag")
+else:
+    print ("gebruik een dag")
